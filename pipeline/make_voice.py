@@ -30,7 +30,7 @@ for i, ln in enumerate(lines):
     if not wav.exists():
         audio = client.text_to_speech.convert(
             text=ln.get("say", ln.get("te")), language_code=LANG, model="bulbul:v4-flash",
-            speaker=SPEAKER, pace=1.1, speech_sample_rate=44100)
+            speaker=SPEAKER, pace=float(os.environ.get("TTS_PACE", "1.1")), speech_sample_rate=44100)
         save(audio, str(wav))
     dur = float(subprocess.check_output(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(wav)]))
