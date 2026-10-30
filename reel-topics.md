@@ -37,7 +37,7 @@ When a queue has fewer than 5 unchecked topics, add new ones that follow the sam
 - [ ] DELETE vs TRUNCATE vs DROP: "Which ones can you roll back in Oracle?"
 
 ## 8:00 PM queue: PostgreSQL DBA
-- [ ] How a SELECT travels inside PostgreSQL: "What happens after you press Enter?"
+- [x] How a SELECT travels inside PostgreSQL: "What happens after you press Enter?" (2026-10-31 20:00)
 - [ ] MVCC: "UPDATE never changes your row. It writes a new one."
 - [ ] DROP ... CASCADE: "One word, CASCADE, can drop your views too."
 - [ ] VACUUM vs VACUUM FULL: "VACUUM FULL freed space and blocked your app."

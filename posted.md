@@ -10,3 +10,5 @@ One line per post: date | slot (IST) | channel | category | topic | folder | Buf
 - 2026-10-30 | 21:41 | Instagram | PostgreSQL DBA | Long-running queries in pg_stat_activity | 2026-10-30-2141 | 6ae4111da83a7fb63c9135e2
 - 2026-10-31 | 13:00 | Instagram | Reel: Oracle SQL | NOT IN with a NULL returns 0 rows | reels/2026-10-31-1300 | 6ae4421b2782e7f331d98829
 - 2026-10-31 | 13:00 | LinkedIn | Reel: Oracle SQL | NOT IN with a NULL returns 0 rows | reels/2026-10-31-1300 | 6ae4422456e01b976390a19f
+- 2026-10-31 | 20:00 | Instagram | Reel: PostgreSQL DBA | How a SELECT travels inside PostgreSQL | reels/2026-10-31-2000 | 6ae446deba1ca51fd3ff689f
+- 2026-10-31 | 20:00 | LinkedIn | Reel: PostgreSQL DBA | How a SELECT travels inside PostgreSQL | reels/2026-10-31-2000 | 6ae446df6385db216a2e74e9
