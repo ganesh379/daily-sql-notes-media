@@ -1,0 +1,7 @@
+.env
+**/voice/
+**/scenes/
+**/stills/
+**/video_only.mp4
+**/timing.js
+node_modules/
